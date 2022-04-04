@@ -1,0 +1,1639 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+ol,
+ul {
+    list-style: none;
+}
+p {
+    line-height: 1.6em;
+    font-size: 14px;
+    color: rgb(117, 116, 116);
+    font-family: "gordita regular";
+}
+a {
+    color: rgb(84, 84, 84);
+    text-decoration: none;
+}
+.wrapper {
+    width: 85%;
+    margin: 0px auto;
+    max-width: 1325px;
+}
+body {
+    font-family: "gordita regular";
+    font-size: 17px;
+    color: rgb(84, 84, 84);
+    min-width: 320px;
+}
+a,
+h1,
+h2,
+h5,
+h6,
+input {
+    font-family: "gordita regular";
+    color: rgb(0, 0, 0);
+}
+@font-face {
+    font-family: "gordita regular";
+    src: url("/fonts/GorditaRegular.74727069.woff");
+}
+@font-face {
+    font-family: "gordita medium";
+    src: url("/fonts/GorditaMedium.8667baff.woff");
+}
+@font-face {
+    font-family: "gordita bold";
+    src: url("/fonts/GorditaBold.162fc0c8.woff");
+}
+#home {
+    background: url("../images/spotlight-bg.png") center bottom / cover no-repeat;
+    height: 900px;
+    width: 100%;
+}
+#home section.wrapper {
+    width: 100%;
+    display: flex;
+}
+#home div.left {
+    width: 70%;
+}
+#home div.left header {
+}
+#home div.left header h1 {
+    width: 194px;
+    padding-left: 113px;
+    padding-top: 69px;
+}
+#home div.left header h1 img {
+    width: 100%;
+    display: block;
+}
+#home div.left h6 {
+    font-size: 50px;
+    margin: 178px 0px 0px 100px;
+    font-family: "gordita medium";
+}
+#home div.left h3 {
+    font-size: 50px;
+    color: rgb(11, 190, 97);
+    margin: 0px 100px;
+    font-family: "gordita bold";
+}
+#home div.left h5 {
+    font-size: 50px;
+    margin: 0px 100px;
+    font-family: "gordita medium";
+}
+#home div.left p {
+    font-size: 18px;
+    max-width: 550px;
+    margin: 20px 100px;
+    color: rgb(117, 116, 116);
+    font-family: "gordita regular";
+}
+#home div.right {
+    width: 640px;
+}
+#home div.right img {
+    width: 100%;
+    display: block;
+}
+#spotlight {
+    margin-top: 100px;
+}
+#spotlight section.wrapper {
+}
+#spotlight div.top {
+}
+#spotlight div.top h2 {
+    font-size: 34px;
+    font-family: "gordita medium";
+    text-align: center;
+    position: relative;
+}
+#spotlight div.top h2::before {
+    content: "";
+    background: url("../images/line.svg") 0% 0% / contain no-repeat;
+    width: 210px;
+    height: 200px;
+    position: absolute;
+    top: 37px;
+    left: 359px;
+    z-index: -1;
+}
+#spotlight div.top span {
+    font-size: 34px;
+    color: rgb(11, 190, 97);
+    font-family: "gordita medium";
+}
+#spotlight div.top p {
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto 0px;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+#spotlight div.top ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 621px;
+    margin: 0px auto;
+}
+#spotlight div.top ul li {
+    height: 40px;
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+#spotlight div.top ul li img {
+    height: 100%;
+    display: block;
+}
+#spotlight div.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#spotlight div.bottom div.left {
+    width: 276px;
+}
+#spotlight div.bottom div.left img {
+    width: 100%;
+    display: block;
+}
+#spotlight div.bottom div.right {
+    width: 50%;
+}
+#spotlight div.bottom div.right h3 {
+    font-size: 34px;
+    font-family: "gordita medium";
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+    position: relative;
+}
+#spotlight div.bottom div.right h3::before {
+    content: "";
+    background: url("../images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 210px;
+    height: 200px;
+    position: absolute;
+    top: -52px;
+    left: 7px;
+    z-index: -1;
+}
+#spotlight div.bottom div.right p {
+    margin-top: 20px;
+}
+#spotlight div.bottom div.right p br {
+}
+#project {
+    padding: 120px 0px 180px;
+}
+#project section.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#project div.left {
+    width: 40%;
+    padding-top: 400px;
+    position: relative;
+}
+#project div.left::before {
+    content: "";
+    background: url("../images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 423px;
+    height: 295px;
+    position: absolute;
+    top: 357px;
+    left: 3px;
+    z-index: -1;
+}
+#project div.left h3 {
+    font-size: 34px;
+    font-family: "gordita medium";
+    color: rgb(0, 0, 0);
+    max-width: 400px;
+    padding-bottom: 25px;
+}
+#project div.left p {
+}
+#project div.right {
+    width: 40%;
+}
+#project div.right ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#project div.right ul li {
+    width: 48%;
+    padding: 20px 20px 30px;
+    border: 1px solid rgba(150, 202, 76, 0.353);
+    border-radius: 15px;
+    margin-top: 35px;
+    transition: all 0.3s ease-in-out 0s;
+}
+#project div.right ul li:hover {
+    border: 1px solid rgb(11, 190, 97);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+#project div.right ul li:first-child {
+    transform: translateY(50px);
+}
+#project div.right ul li:nth-child(3) {
+    transform: translateY(50px);
+}
+#project div.right ul li img {
+    width: 100%;
+    display: block;
+}
+#project div.right ul li h4 {
+    font-size: 18px;
+    font-family: "gordita medium";
+    color: rgb(84, 84, 84);
+    margin-top: 20px;
+}
+#project div.right ul li p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+#startups {
+    background-color: rgb(249, 249, 249);
+    padding: 120px 0px;
+}
+#startups section.wrapper {
+}
+#startups h2 {
+    font-size: 34px;
+    font-family: "gordita medium";
+    text-align: center;
+    max-width: 500px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+}
+#startups h2::before {
+    content: "";
+    background: url("../images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 288px;
+    height: 206px;
+    position: absolute;
+    top: -55px;
+    left: 40px;
+    z-index: -1;
+    opacity: 0.7;
+    filter: blur(12px);
+}
+#startups p {
+    text-align: center;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 30px auto 0px;
+    position: relative;
+    z-index: 1;
+}
+#startups ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#startups ul li {
+    width: 23%;
+    margin: 100px 10px 0px;
+    padding: 50px 20px 30px;
+    border: 1px solid rgb(214, 236, 212);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    min-height: 350px;
+    transition: all 0.3s ease-in-out 0s;
+    position: relative;
+}
+#startups ul li:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+#startups ul li div.container {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    padding: 7px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgb(11, 190, 97);
+    top: -55px;
+    position: absolute;
+}
+#startups ul li div.container span {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+#startups ul li div.container span img {
+    width: 100%;
+    display: block;
+}
+#startups ul li h5 {
+    font-size: 18px;
+    font-family: "gordita medium";
+    color: rgb(84, 84, 84);
+    margin-top: 20px;
+}
+#startups ul li p.detail {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(126, 126, 126);
+    text-align: left;
+}
+#startups ul li a.button {
+    width: calc(100% - 40px);
+    height: 50px;
+    background-color: rgb(213, 240, 230);
+    font-size: 14px;
+    font-family: "gordita medium";
+    color: rgb(15, 167, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+#team {
+}
+#team section.wrapper {
+}
+#team h2 {
+    font-size: 34px;
+    font-family: "gordita medium";
+    text-align: center;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 100px 0px 60px;
+    position: relative;
+}
+#team h2::before {
+    content: "";
+    background: url("../images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 210px;
+    height: 200px;
+    position: absolute;
+    top: 69px;
+    left: 145px;
+    z-index: -1;
+}
+#team h2 br {
+}
+#team ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+#team ul li {
+    width: 30%;
+    margin-bottom: 20px;
+}
+#team ul li div {
+    display: block;
+    padding: 15px;
+    border: 1px solid rgb(217, 240, 232);
+    border-radius: 15px;
+}
+#team ul li div img {
+    width: 100%;
+    display: block;
+}
+#team ul li h3 {
+    font-size: 16px;
+    font-family: "gordita medium";
+    text-align: center;
+    margin-top: 20px;
+}
+#team ul li p {
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+    text-align: center;
+}
+#team ul li a {
+    display: flex;
+    justify-content: space-between;
+}
+#team ul li a.button {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    background-color: rgb(43, 126, 188);
+    height: 40px;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto 0px;
+}
+#team ul li a.button:hover {
+    opacity: 0.85;
+}
+#team ul li a.button span {
+    display: flex;
+    height: 20px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(255, 255, 255);
+    padding-right: 6px;
+    margin-right: 6px;
+}
+#team ul li a.button span img {
+    width: 15px;
+    display: block;
+    padding-bottom: 4px;
+}
+#team ul li a.button p {
+    font-size: 12px;
+    font-family: "gordita medium";
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+}
+#team div.banner {
+    padding: 130px 0px;
+}
+#team div.banner img {
+    display: block;
+    width: 71%;
+    margin: 0px auto;
+}
+#team div.mros {
+    display: none;
+}
+#team div.mros img {
+}
+#intrest {
+    padding: 130px 0px;
+    background-color: rgb(249, 249, 249);
+}
+#intrest section.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+#intrest div.left {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#intrest div.left h2 {
+    font-size: 34px;
+    font-family: "gordita medium";
+}
+#intrest div.right {
+    width: 68%;
+}
+#intrest div.right ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#intrest div.right ul li {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+}
+#intrest div.right ul li div.left {
+    display: block;
+    width: 50px;
+    min-width: 50px;
+    margin-right: 20px;
+}
+#intrest div.right ul li div.left span {
+}
+#intrest div.right ul li div.left span img {
+}
+#intrest div.right ul li div.right {
+    width: 100%;
+    margin-bottom: 25px;
+}
+#intrest div.right ul li div.right h5 {
+    font-size: 20px;
+    color: rgb(84, 84, 84);
+    font-family: "gordita medium";
+    margin-bottom: 10px;
+}
+#intrest div.right ul li div.right p {
+    font-size: 16px;
+}
+#mission {
+}
+#mission section.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+#mission h2.respo {
+    display: none;
+}
+#mission div.left {
+    width: 49%;
+    padding: 130px 0px;
+}
+#mission div.left h2 {
+    font-size: 34px;
+    font-family: "gordita medium";
+    color: rgb(33, 33, 33);
+    margin-bottom: 54px;
+    letter-spacing: 0.41px;
+    position: relative;
+}
+#mission div.left h2::before {
+    content: "";
+    background: url("../images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 299px;
+    height: 329px;
+    position: absolute;
+    top: -72px;
+    left: -68px;
+    z-index: -1;
+}
+#mission div.left h2 br {
+}
+#mission div.left div.content {
+}
+#mission div.left div.content h4 {
+    margin-bottom: 10px;
+    font-family: "gordita medium";
+    font-size: 20px;
+}
+#mission div.left div.content p {
+    line-height: 1.8em;
+    font-size: 16px;
+    color: rgb(117, 116, 116);
+    font-family: "gordita regular";
+    margin-bottom: 60px;
+}
+#mission div.right {
+    padding: 130px 0px;
+}
+#mission div.right div.box {
+    position: sticky;
+    top: 113px;
+    width: 450px;
+    padding: 35px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mission div.right div.box h1 {
+    margin-bottom: 6px;
+}
+#mission div.right div.box h1 a {
+    width: 82px;
+    display: block;
+}
+#mission div.right div.box h1 a img {
+    width: 100%;
+    display: block;
+}
+#mission div.right div.box h5 {
+    display: flex;
+    font-size: 16px;
+    font-family: "gordita medium";
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+}
+#mission div.right div.box h5::before {
+    content: "";
+    width: 4px;
+    height: 20px;
+    background: rgb(27, 202, 27);
+    margin-right: 5px;
+}
+#mission div.right div.box p {
+    padding-top: 20px;
+    display: block;
+    margin-bottom: 16px;
+}
+#mission div.right div.box p br {
+}
+#programs {
+    background: rgb(249, 249, 249);
+    padding: 60px 0px;
+}
+#programs section.wrapper {
+}
+#programs h2 {
+    font-size: 34px;
+    font-family: "gordita medium";
+    color: rgb(33, 33, 33);
+    text-align: center;
+    margin: 0px auto 70px;
+    letter-spacing: 0.41px;
+    padding-top: 60px;
+}
+#programs ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+#programs ul li {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 236, 212);
+    border-radius: 20px;
+    padding: 82px 30px 30px;
+    width: 31%;
+    height: 350px;
+    margin-bottom: 60px;
+    transition: all 0.3s ease-in-out 0s;
+    min-height: 360px;
+    position: relative;
+}
+#programs ul li:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 20px 23px 25px;
+}
+#programs ul li div.icon {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    top: -32px;
+    left: 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 8px 14px 16px;
+    background-color: rgb(219, 239, 255);
+}
+#programs ul li div.icon img {
+    width: 100%;
+    display: block;
+}
+#programs ul li div.content {
+}
+#programs ul li div.content h3 {
+    font-family: "gordita medium";
+    margin-top: 5px;
+    font-size: 20px;
+}
+#programs ul li div.content p {
+    color: rgb(142, 140, 140);
+    line-height: 1.5;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#programs ul li div.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+    position: absolute;
+    width: calc(100% - 60px);
+    bottom: 30px;
+    left: 30px;
+}
+#programs ul li div.contact p {
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+    transform: translateY(3px);
+    font-family: "gordita medium";
+}
+#programs ul li div.contact div.tip {
+    display: flex;
+    justify-content: space-between;
+}
+#programs ul li div.contact div.tip div.message {
+    margin-right: 10px;
+}
+#programs ul li div.contact div.tip div.message a{
+
+}
+#programs ul li div.contact div.tip div.message a img {
+    width: 100%;
+    display: block;
+}
+#programs ul li div.contact div.tip div.whatsapp {
+}
+#programs ul li div.contact div.tip div.whatsapp a{
+
+}
+#programs ul li div.contact div.tip div.whatsapp a img {
+    width: 100%;
+    display: block;
+}
+#techies_park {
+}
+#techies_park section.wrapper {
+}
+#techies_park h2 {
+    font-size: 34px;
+    font-family: "gordita medium";
+    color: rgb(33, 33, 33);
+    text-align: center;
+    margin: 0px auto;
+    letter-spacing: 0.41px;
+    padding-top: 120px;
+    position: relative;
+}
+#techies_park h2::before {
+    content: "";
+    background: url("../images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 299px;
+    height: 219px;
+    position: absolute;
+    top: 46px;
+    left: 415px;
+    z-index: -1;
+}
+#techies_park p {
+    color: rgb(142, 140, 140);
+    line-height: 1.5;
+    font-size: 16px;
+    width: 70%;
+    max-width: 700px;
+    text-align: center;
+    margin: 10px auto 20px;
+}
+#techies_park ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#techies_park ul li {
+    padding: 25px;
+    width: 32%;
+}
+#techies_park ul li:hover {
+    background: rgb(249, 249, 249);
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out 0s;
+    transform: translateY(-10px);
+}
+#techies_park ul li div.photos {
+}
+#techies_park ul li div.photos img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+#techies_park ul li h3 {
+    font-family: "gordita medium";
+    margin-top: 18px;
+    font-size: 16px;
+}
+#techies_park ul li a {
+    cursor: pointer;
+    width: 51%;
+    padding: 7px 14px;
+    background: rgb(229, 245, 239);
+    border: 1px solid rgb(26, 218, 147);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+}
+#techies_park ul li a.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+#techies_park ul li a.button div.icon {
+    padding-left: 14px;
+}
+#techies_park ul li a.button div.icon img {
+    width: 100%;
+    display: block;
+}
+#techies_park ul li a.button p {
+    margin: 0px auto;
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+}
+#upcoming {
+}
+#upcoming section.wrapper {
+}
+#upcoming div.container {
+    padding: 97px 55px 90px;
+    background: rgb(249, 249, 249);
+    margin-bottom: 50px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 160px;
+}
+#upcoming div.container div.left {
+    width: 37%;
+}
+#upcoming div.container div.left h2 {
+    font-size: 32px;
+    font-family: "gordita medium";
+    color: rgb(33, 33, 33);
+    display: inline-block;
+    margin: 0px auto 54px;
+    letter-spacing: 0.41px;
+    position: relative;
+}
+#upcoming div.container div.left h2::before {
+    content: "";
+    background: url("../images/line.svg") 0% 0% / contain no-repeat;
+    width: 210px;
+    height: 200px;
+    position: absolute;
+    top: 85px;
+    left: 5px;
+}
+#upcoming div.container div.left h2 br {
+}
+#upcoming div.container div.left div.content {
+    display: flex;
+    justify-content: space-around;
+}
+#upcoming div.container div.left div.content div.icon {
+    width: 30px;
+}
+#upcoming div.container div.left div.content div.icon img {
+    width: 100%;
+    display: block;
+}
+#upcoming div.container div.left div.content div.para {
+    width: 335px;
+}
+#upcoming div.container div.left div.content p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+#upcoming div.container div.right {
+    width: 58%;
+    position: relative;
+}
+#upcoming div.container div.right img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+#upcoming div.container div.right div.play {
+    width: 80px;
+    position: absolute;
+    top: 140px;
+    right: 250px;
+}
+#upcoming div.container div.right div.play img {
+    width: 100%;
+    display: block;
+}
+#admission {
+}
+#admission section.wrapper {
+}
+#admission h3 {
+    font-size: 32px;
+    font-family: "gordita medium";
+    color: rgb(33, 33, 33);
+    margin: 0px auto 27px;
+    letter-spacing: 0.41px;
+    text-align: center;
+    position: relative;
+}
+#admission h3::before {
+    content: "";
+    background: url("../images/backgrounds-color.png") 0% 0% / contain no-repeat;
+    width: 299px;
+    height: 253px;
+    position: absolute;
+    top: -56px;
+    left: 518px;
+    z-index: -1;
+}
+#admission h3 span::before {
+    content: "";
+    background: url("../images/line.svg") 0% 0% / contain no-repeat;
+    width: 168px;
+    height: 200px;
+    position: absolute;
+    top: 83px;
+    left: 652px;
+    z-index: -1;
+}
+#admission h3 br {
+}
+#admission p.heading {
+    color: rgb(142, 140, 140);
+    font-size: 16px;
+    width: 70%;
+    max-width: 700px;
+    text-align: center;
+    margin: 0px auto;
+}
+#admission ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60px;
+}
+#admission ul li {
+    flex-wrap: wrap;
+    display: flex;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 236, 212);
+    border-radius: 14px;
+    padding: 26px 20px;
+    width: 32%;
+    margin-bottom: 40px;
+    transition: all 0.3s ease-in-out 0s;
+    min-height: 320px;
+}
+#admission ul li:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 20px 23px 46px;
+    transition: all 0.3s ease-in-out 0s;
+}
+#admission ul li div.icon {
+    width: 17%;
+    margin-right: 9px;
+}
+#admission ul li div.icon img {
+    width: 100%;
+    display: block;
+}
+#admission ul li div.content {
+    width: 80%;
+}
+#admission ul li div.content h5 {
+    font-family: "gordita medium";
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+#admission ul li div.content h4 {
+    color: rgb(15, 167, 111);
+    font-family: "gordita medium";
+    font-size: 23px;
+}
+#admission ul li div.content p.describe {
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+}
+#admission ul li div.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+    width: 100%;
+}
+#admission ul li div.contact p {
+    color: rgb(15, 167, 111);
+    font-size: 16px;
+    font-family: "gordita medium";
+}
+#admission ul li div.contact div.tip {
+    display: flex;
+}
+
+#admission ul li div.contact div.message {
+
+}
+#admission ul li div.contact div.message a {
+}
+#admission ul li div.contact div.message a img {
+    width: 100%;
+    display: block;
+}
+#admission ul li div.contact div.whatsapp {
+    margin-left: 10px;
+}
+#admission ul li div.contact div.whatsapp a {
+
+}
+
+#admission ul li div.contact div.whatsapp a img {
+    display: block;
+    width: 100%;
+}
+footer {
+    background-color: rgb(30, 30, 30);
+    padding: 100px 0px 50px;
+}
+footer section.wrapper {
+}
+footer div.top {
+    display: flex;
+    justify-content: space-around;
+}
+footer div.top div.left {
+    width: 25%;
+}
+footer div.top div.left div.logo {
+    width: 200px;
+    margin: 0 auto;
+}
+footer div.top div.left div.logo a {
+}
+footer div.top div.left div.logo a img {
+    width: 100%;
+    display: block;
+}
+footer div.top div.left p {
+    font-size: 16px;
+    margin-top: 30px;
+    color: rgb(170, 170, 170);
+    line-height: 28px;
+}
+footer div.top div.right {
+    width: 70%;
+}
+footer div.top div.right ul {
+    display: flex;
+    justify-content: space-around;
+}
+footer div.top div.right ul li {
+    width: 20%;
+}
+footer div.top div.right ul li h4 {
+    font-size: 16px;
+    font-family: "gordita medium";
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+footer div.top div.right ul li a {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+}
+footer div.top div.right ul li div.social_media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+footer div.top div.right ul li div.social_media a {
+}
+footer div.top div.right ul li div.social_media a img {
+    display: block;
+    height: 20px;
+}
+footer div.bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+footer div.bottom p {
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+}
+@media (max-width: 1280px) {
+    #project div.left {
+        width: 80%;
+        margin: 0px auto;
+    }
+    #project div.left h3 {
+        text-align: center;
+        margin: 0px auto;
+        font-size: 34px;
+    }
+    #project div.left p {
+        margin: 40px auto 0px;
+        text-align: center;
+    }
+    #project section.wrapper {
+        flex-wrap: wrap;
+    }
+    #project div.left::before {
+        height: 250px;
+        top: 306px;
+        left: 36%;
+    }
+    #project div.right {
+        width: 60%;
+    }
+    #intrest section.wrapper {
+        flex-wrap: wrap;
+    }
+    #intrest div.right {
+        width: 75%;
+        margin: 0px auto 70px;
+    }
+    #intrest div.left {
+        width: 90%;
+        text-align: center;
+        margin: 0px auto 70px;
+    }
+    #intrest div.right ul {
+        justify-content: space-between;
+    }
+    #mission section.wrapper {
+        flex-direction: column-reverse;
+    }
+    #mission h2.respo {
+        display: block;
+        width: 100%;
+        font-family: "gordita medium";
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #mission div.left h2 {
+        display: none;
+    }
+    #mission div.right div.box {
+        width: 344px;
+    }
+    #programs ul li {
+        width: 47%;
+        margin-bottom: 50px;
+        min-height: 330px;
+    }
+    #techies_park ul li a.button {
+        width: 73%;
+    }
+    #admission h3 span::before {
+        height: 250px;
+        top: 80px;
+        left: 58%;
+    }
+    #admission h3::before {
+        display: none;
+    }
+    #admission ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #admission ul li {
+        width: 35%;
+    }
+    footer div.top {
+        flex-wrap: wrap;
+    }
+    footer div.top div.right {
+        width: 90%;
+    }
+    footer div.top div.left {
+        width: 60%;
+        margin: 40px;
+    }
+    #startups ul li {
+        width: 28%;
+    }
+    #mission div.left {
+        width: 95%;
+    }
+    #mission div.right div.box {
+        width: 1080px;
+    }
+}
+@media (max-width: 1080px) {
+    #home div.left p {
+        font-size: 16px;
+    }
+    #home div.left {
+        width: 100%;
+    }
+    #home div.left h3 {
+        font-size: 38px;
+    }
+    #home div.left h6 {
+        font-size: 38px;
+        margin: 30px 100px 0px;
+    }
+    #home div.left h5 {
+        font-size: 38px;
+    }
+    #home {
+        height: 650px;
+    }
+    #project div.left {
+        padding-top: 0px;
+    }
+    #startups ul li {
+        width: 38%;
+    }
+    #intrest div.right {
+        width: 95%;
+    }
+    #intrest {
+        padding: 80px 0px 0px;
+    }
+    #mission section.wrapper {
+        flex-wrap: wrap;
+    }
+    #mission div.left {
+        width: 85%;
+        margin: 0 auto;
+        padding: 0px 0px 0px;
+    }
+    #mission div.right div.box {
+        width: 85%;
+        margin: 0 auto;
+    }
+    #mission div.left h2 br {
+        display: none;
+    }
+    #techies_park ul li {
+        width: 47%;
+    }
+    #techies_park ul li a.button {
+        width: 54%;
+    }
+    #upcoming div.container {
+        flex-wrap: wrap;
+    }
+    #upcoming div.container div.left {
+        width: 80%;
+    }
+    #upcoming div.container div.right {
+        width: 80%;
+    }
+    #upcoming div.container div.left div.content p {
+        margin-bottom: 23px;
+        width: 150%;
+    }
+    #upcoming div.container div.left div.content {
+        justify-content: flex-start;
+        width: 100%;
+    }
+    #upcoming div.container div.left div.content div.icon {
+        margin-right: 35px;
+    }
+
+    #upcoming div.container div.left h2 {
+        width: 100%;
+        text-align: center;
+    }
+    #upcoming div.container div.left h2::before {
+        left: 170px;
+    }
+    #project div.left::before {
+        height: 204px;
+        top: -45px;
+    }
+    #upcoming div.container div.left h2::before {
+        left: 204px;
+    }
+    #techies_park h2::before {
+        height: 122px;
+        top: 80px;
+        left: 228px;
+    }
+}
+
+@media (max-width: 980px) {
+    #home div.left h3 {
+        font-size: 30px;
+        margin: 0px 24px;
+    }
+    #home div.left h5 {
+        font-size: 30px;
+        margin: 0px 24px;
+    }
+    #home div.left h6 {
+        font-size: 30px;
+        margin: 30px 24px 0px;
+    }
+    #home div.left p {
+        font-size: 14px;
+        margin: 20px 24px;
+    }
+    #spotlight div.top p {
+        font-size: 14px;
+    }
+    #spotlight div.top ul {
+        width: 387px;
+    }
+    #spotlight div.bottom {
+        flex-wrap: wrap;
+    }
+    #spotlight div.bottom div.left {
+        width: 344px;
+    }
+    #spotlight div.bottom div.right {
+        width: 80%;
+        padding-top: 30px;
+    }
+    #team ul {
+        width: 98%;
+    }
+    #intrest div.right ul li {
+        width: 100%;
+    }
+    #mission div.left h2 {
+        font-size: 24px;
+    }
+    #mission div.left h2::before {
+        height: 206px;
+    }
+    #programs ul li {
+        width: 80%;
+    }
+    #techies_park h2::before {
+        height: 152px;
+        top: 57px;
+        left: 100px;
+    }
+    #admission ul li {
+        width: 100%;
+    }
+    #upcoming div.container div.left h2::before {
+        left: 118px;
+    }
+    #upcoming div.container div.left div.content div.icon {
+        margin-right: 11px;
+    }
+    #upcoming div.container div.left div.content div.para {
+        width: 294px;
+    }
+    #upcoming div.container div.right {
+        width: 100%;
+    }
+    footer div.top div.right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #home div.left h3 {
+        margin: 0px 0px 0px 24px;
+    }
+    #home div.left p {
+        font-size: 13px;
+        margin: 20px 0px 0px 27px;
+    }
+    #spotlight div.top h2::before {
+        top: 39px;
+        left: 72px;
+    }
+    #spotlight div.bottom div.right {
+        width: 100%;
+    }
+    #project div.right {
+        width: 90%;
+    }
+    #startups ul li {
+        width: 45%;
+    }
+    #team ul {
+        width: 100%;
+    }
+    #team div.banner img {
+        width: 100%;
+    }
+    #mission h2.respo {
+        width: 84%;
+    }
+    #mission div.right {
+        padding: 40px 0px;
+    }
+    #mission div.right div.box {
+        width: 100%;
+    }
+    #techies_park p {
+        width: 88%;
+    }
+    #techies_park ul li a.button {
+        width: 85%;
+    }
+    #techies_park ul li {
+        width: 49%;
+    }
+    #upcoming div.container {
+        padding: 51px 0px 52px;
+        margin-top: 50px;
+    }
+    #upcoming div.container div.left div.content p {
+        margin-bottom: 23px;
+        width: 135%;
+    }
+    #admission h3 span::before {
+        left: 64%;
+    }
+    footer div.top div.right ul li a {
+        font-size: 12px;
+    }
+    footer div.top div.right ul {
+        flex-wrap: wrap;
+    }
+    footer div.top div.right ul li {
+        width: 35%;
+    }
+}
+@media (max-width: 640px) {
+    #upcoming div.container div.left div.content div.para {
+        width: 220px;
+    }
+    #upcoming div.container div.left h2::before {
+        left: 58px;
+    }
+    #admission h3 {
+        font-size: 26px;
+    }
+    #admission h3 span::before {
+        height: 178px;
+        top: 68px;
+        left: 228px;
+    }
+    #techies_park ul li {
+        width: 100%;
+    }
+    #techies_park ul li a.button {
+        width: 55%;
+    }
+    #project div.left::before {
+        width: 130px;
+    }
+    #home section.wrapper {
+        flex-wrap: wrap;
+    }
+    #home div.right {
+        width: 251px;
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+    #home {
+        position: relative;
+        height: 500px;
+    }
+    #home div.left header h1 {
+        width: 152px;
+        padding-left: 56px;
+        padding-top: 38px;
+    }
+    #spotlight div.top ul {
+        width: 288px;
+    }
+    #spotlight div.bottom div.right h3 {
+        font-size: 29px;
+    }
+    #project div.right ul li {
+        width: 95%;
+    }
+    #project div.right ul li:nth-child(3) {
+        transform: none;
+    }
+    #project div.right ul li:first-child {
+        transform: translateY(10px);
+    }
+    #project {
+        padding: 60px 0px 40px;
+    }
+    #startups h2 {
+        font-size: 30px;
+    }
+    #startups {
+        padding: 40px 0px;
+    }
+    #startups ul li {
+        width: 100%;
+    }
+    #team ul {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #team ul li {
+        width: 47%;
+    }
+    #intrest div.left h2 {
+        font-size: 30px;
+    }
+    #programs ul li {
+        width: 100%;
+    }
+    #admission p.heading {
+        width: 100%;
+    }
+    footer div.top div.left {
+        width: 90%;
+        margin: 40px 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    #admission h3 {
+        font-size: 19px;
+    }
+    #admission h3 span::before {
+        height: 74px;
+        top: 50px;
+        left: 187px;
+        width: 108px;
+    }
+    #upcoming div.container div.left div.content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #upcoming div.container div.left div.content div.para {
+        width: 205px;
+    }
+    footer div.top div.right ul li div.social_media a img {
+        height: 15px;
+    }
+    #team section.wrapper {
+        width: 100%;
+    }
+    #team div.banner img {
+        display: none;
+    }
+    #team div.mros {
+        display: block;
+        padding: 30px;
+    }
+    #team div.mros img {
+        display: block;
+        width: 100%;
+    }
+    #home div.right {
+        width: 201px;
+    }
+    #home div.left header h1 {
+        width: 127px;
+        padding-left: 62px;
+        padding-top: 73px;
+    }
+    #upcoming div.container div.right div.play {
+        width: 59px;
+        top: 65px;
+        right: 117px;
+    }
+    footer div.top div.right ul li {
+        width: 45%;
+    }
+    #techies_park ul li {
+        padding: 5px;
+        margin-top: 10px;
+    }
+    #techies_park h2::before {
+        display: none;
+    }
+    #spotlight div.top h2 {
+        font-size: 32px;
+    }
+    #spotlight {
+        margin-top: 45px;
+    }
+    #team div.banner {
+        padding: 35px 0px;
+    }
+}
+@media (max-width: 360px) {
+    #home {
+        height: 550px;
+    }
+    #startups h2::before {
+        display: none;
+    }
+    #team h2::before {
+        left: 70px;
+    }
+    #team ul li {
+        width: 80%;
+    }
+    #admission h3 span::before {
+        display: none;
+    }
+    #upcoming div.container div.left h2::before {
+        display: none;
+    }
+    #spotlight div.top h2::before {
+        left: 35px;
+    }
+    #upcoming div.container div.left div.content p {
+        width: 110%;
+    }
+    footer div.bottom p {
+        font-size: 13px;
+    }
+    #admission p.heading {
+        font-size: 14px;
+    }
+    #upcoming div.container div.right div.play {
+        width: 51px;
+        top: 59px;
+        right: 109px;
+    }
+}
